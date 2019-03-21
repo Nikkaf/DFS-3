@@ -1,0 +1,27 @@
+p{
+  font-size: 50pt;
+  font-family: sansation;
+  position: absolute; 
+}
+
+.word{
+  
+}
+
+.circle{
+  background: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 99999999px;
+  position: absolute;
+  top: -150 px;
+  z-index: -2;
+}
+
+.circle:hover {
+  opacity: 0.5;
+  width: 400px;
+  height: 400px;
+  transition-duration:2s;
+  z-index: 10;
+}
